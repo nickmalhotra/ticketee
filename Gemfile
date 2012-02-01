@@ -19,6 +19,17 @@ end
 
 gem 'jquery-rails'
 
+
+group :test, :development do
+  gem 'rspec-rails', '~> 2.5'
+end
+
+group :test do
+  gem 'cucumber-rails'
+  #browser simulator gem for integration testing
+  gem 'capybara'
+end
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
