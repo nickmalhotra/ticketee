@@ -28,6 +28,7 @@ group :test do
   gem 'cucumber-rails'
   #browser simulator gem for integration testing
   gem 'capybara'
+  gem 'database_cleaner'
 end
 
 # Use unicorn as the web server
